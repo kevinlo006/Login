@@ -1,7 +1,9 @@
+body{
+    background-color: rgb(207, 207, 207);
+}
 .container{
-    border: 1px solid black;
+    height: 800px;
     display: flex;
-    height: 500px;
     justify-content: center;
     align-items: center;
 }
@@ -9,9 +11,12 @@
 .form{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: center;
     align-items: center;
+    width: 50%;
+    border-radius: 20px;
     background-color: white;
+    box-shadow: 15px 15px 20px 20px #00b7ff;
 }
 
 .form h2{
@@ -33,12 +38,18 @@
 
 #submit{
     padding: 12px 30px;
-    width: 40%;
     margin-top: 40px;
+    margin-bottom: 40px;
+    width: 20%;
     background-color: rgb(198, 37, 238);
     color: white;
     font-weight: bold;
     border: none;
     outline: none;
     border-radius: 20px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: blueviolet;
 }
