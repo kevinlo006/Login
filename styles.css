@@ -15,9 +15,11 @@
 }
 
 .form h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
-    margin: 40px;
 }
 
 .box{
@@ -33,7 +35,7 @@
     padding: 12px 30px;
     width: 40%;
     margin-top: 40px;
-    background-color: black;
+    background-color: rgb(198, 37, 238);
     color: white;
     font-weight: bold;
     border: none;
